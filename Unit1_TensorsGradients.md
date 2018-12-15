@@ -23,51 +23,36 @@
     torch.mm(A,B) matrix multiplication
     a.mean()
     a.std()
-    
     a.max()
-    
     a.min()
-    
     np.pi
-    
     torch.sin(a)
-    
     torch.linspace(min,max,nsteps)
-    
     plt.plot(x.numpy(),y.numpy())
     
   **Derivatives:**
   
     x = torch.tensor(2.0,requires_grad=True)
-    
     y = fxn(x1,x2) (eg x\**2)
-    
     y.backward()
-    
     x1.grad = dy/dx1(at x1=val)
     
   **Retain graphs:**
   
     x.grad.zero_()
-    
     y.backward(retain_graph=True)
       
   **Derivative over function:**
   
     import torch.nn.functional as F
-    
     x = torch.linspace(size wanted)
-    
     Y = F.relu(x)
-    
     y = torch.sum(F.relu(x))
-    
     y.backward()
       
    **Transform Compose:**
    
     from torchvision import transforms
-    
     dt = transform.Compose([transform1(),transform2(),...])
     
     
