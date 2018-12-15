@@ -1,4 +1,4 @@
-# Linear Regression
+# Unit 2: Linear Regression
 
   **Forward Function**
 
@@ -11,13 +11,10 @@
     
  **Linear Class**
  
-  from torch.nn import Linear
- 
-  model = Linear(in_features=1,out_features=1,bias=True) (randomly sets initial w,b for y = b + wx)
-  
-  y = model(x) (prediction)
-  
-  print(list(model.parameters())) (lists w,b)
+    from torch.nn import Linear
+    model = Linear(in_features=1,out_features=1,bias=True) (randomly sets initial w,b for y = b + wx)
+    y = model(x) (prediction)
+    print(list(model.parameters())) (lists w,b)
   
   **Custom Modules**
   
@@ -26,7 +23,7 @@
         super(LR,self).__init__() (sets any other necessary parameters from nn.module)
         self.linear = nn.Linear(in,out)
         
-       def forward(self,x) (needs to be called forward so that future calls of LR class objects will accurately predict)
+       def forward(self,x) (needs to be called 'forward' so that future calls of LR class objects will accurately predict)
         return self.Linear(x)
  
   
