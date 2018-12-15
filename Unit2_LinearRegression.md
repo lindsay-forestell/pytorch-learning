@@ -12,7 +12,8 @@
  **Linear Class**
  
     from torch.nn import Linear
-    model = Linear(in_features=1,out_features=1,bias=True) (randomly sets initial w,b for y = b + wx)
+    model = Linear(in_features=1,out_features=1,bias=True) 
+    (randomly sets initial w,b for y = b + wx, number of features +1 from in_features due to bias)
     yhat = model(x) (prediction)
     print(list(model.parameters())) (lists w,b)
   
