@@ -90,5 +90,7 @@ Unit 1: Tensors and Gradients
     
     
   Labs 1.1.x and 1.2.x contain useful basic pytorch functions for tensors and .backward() function
+  
   Lab 1.3.1 does decent class/datasets/transforms overview
+  
   Lab 1.3.2 contains useful show_image function (for MNIST data)
