@@ -1,6 +1,4 @@
 # Unit 1: Tensors, Gradients, and Datasets
-
-Unit 1: Tensors and Gradients
   
   **Useful functions:**
   
@@ -82,7 +80,7 @@ Unit 1: Tensors and Gradients
     
     y.backward()
       
-   Transform Compose:
+   **Transform Compose:**
    
     from torchvision import transforms
     
