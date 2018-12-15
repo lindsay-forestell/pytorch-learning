@@ -31,5 +31,9 @@
     yhat = lr(x) will predict y as a function of x BECAUSE the forward function is defined in the class
     lr(x), lr.parameters(), etc. from Linear Class all carry over
  
+ 
+ **Extra Resources**
+ 
+ [Module Class](https://pytorch.org/docs/stable/nn.html)
   
   
