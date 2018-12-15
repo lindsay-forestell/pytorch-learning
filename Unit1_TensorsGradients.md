@@ -94,3 +94,10 @@ Unit 1: Tensors and Gradients
   Lab 1.3.1 does decent class/datasets/transforms overview
   
   Lab 1.3.2 contains useful show_image function (for MNIST data)
+  
+  Extra resources:
+  
+   Python Classes: <https://docs.python.org/3/tutorial/classes.html>
+  
+   Pytorch Autograd: <https://towardsdatascience.com/getting-started-with-pytorch-part-1-understanding-how-automatic-differentiation-works-5008282073ec>
+  
