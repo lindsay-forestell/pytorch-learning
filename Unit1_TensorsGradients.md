@@ -28,6 +28,7 @@
     np.pi
     torch.sin(a)
     torch.linspace(min,max,nsteps)
+    torch.arange(min,max,stepsize)
     plt.plot(x.numpy(),y.numpy())
     
   **Derivatives:**
