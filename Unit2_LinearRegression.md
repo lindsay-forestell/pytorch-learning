@@ -25,6 +25,9 @@
         
        def forward(self,x) (needs to be called 'forward' so that future calls of LR class objects will accurately predict)
         return self.Linear(x)
+        
+    lr = LR(1,1)
+    y = lr(x) will predict y as a function of x BECAUSE the forward function is defined in the class
  
   
   
