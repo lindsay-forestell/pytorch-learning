@@ -32,7 +32,10 @@
     lr = LR(1,1)
     yhat = lr(x) will predict y as a function of x BECAUSE the forward function is defined in the class
     lr(x), lr.parameters(), etc. from Linear Class all carry over
- 
+    
+  **Labs**
+  
+ Lab 2.1.1 contains useful basic modelling info (build custom modules)
  
  **Extra Resources**
  
