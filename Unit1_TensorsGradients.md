@@ -3,41 +3,25 @@
   **Useful functions:**
   
     a = torch.tensor([])
-    
     a.dtype
-    
     a.type()
-    
     a.shape
-    
     a.size()
-    
     a.ndimension()
-    
     a.view(new,shape,you,want)
-    
     tensor = torch.from_numpy(np_array)
-    
     np_array = tensor.numpy()
-    
     tensor = torch.from_numpy(pd.values)
-    
     pd_series = pd.Series(tensor.numpy())
-    
     a[i] = 100
-    
     a[1,1:4] = new_array
-    
     a[1][1:4] does NOT work
     
   **Basic Operations:**
   
     torch.dot(u,v) dot product
-    
     torch.mm(A,B) matrix multiplication
-    
     a.mean()
-    
     a.std()
     
     a.max()
