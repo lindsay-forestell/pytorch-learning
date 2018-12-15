@@ -55,7 +55,8 @@
     from torchvision import transforms
     dt = transform.Compose([transform1(),transform2(),...])
     
-    
+  **Labs:**
+  
   Labs 1.1.x and 1.2.x contain useful basic pytorch functions for tensors and .backward() function
   
   Lab 1.3.1 does decent class/datasets/transforms overview
