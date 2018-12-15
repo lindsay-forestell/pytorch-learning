@@ -2,7 +2,7 @@
 
 Unit 1: Tensors and Gradients
   
-  Useful functions:
+  **Useful functions:**
   
     a = torch.tensor([])
     
@@ -32,7 +32,7 @@ Unit 1: Tensors and Gradients
     
     a[1][1:4] does NOT work
     
-  Basic Operations:
+  **Basic Operations:**
   
     torch.dot(u,v) dot product
     
@@ -54,7 +54,7 @@ Unit 1: Tensors and Gradients
     
     plt.plot(x.numpy(),y.numpy())
     
-  Derivatives:
+  **Derivatives:**
   
     x = torch.tensor(2.0,requires_grad=True)
     
@@ -64,13 +64,13 @@ Unit 1: Tensors and Gradients
     
     x1.grad = dy/dx1(at x1=val)
     
-  Retain graphs:
+  **Retain graphs:**
   
     x.grad.zero_()
     
     y.backward(retain_graph=True)
       
-  Derivative over function:
+  **Derivative over function:**
   
     import torch.nn.functional as F
     
@@ -95,9 +95,13 @@ Unit 1: Tensors and Gradients
   
   Lab 1.3.2 contains useful show_image function (for MNIST data)
   
-  Extra resources:
+  **Extra resources:**
   
-   Python Classes: <https://docs.python.org/3/tutorial/classes.html>
+   [Python Classes](https://docs.python.org/3/tutorial/classes.html)
   
-   Pytorch Autograd: <https://towardsdatascience.com/getting-started-with-pytorch-part-1-understanding-how-automatic-differentiation-works-5008282073ec>
+    Pytorch Autograd: 
+    [Towards Datascience](https://towardsdatascience.com/getting-started-with-pytorch-part-1-understanding-how-automatic-differentiation-works-5008282073ec)
+    [Mastering Autograd](https://pytorch.org/docs/stable/notes/autograd.html)
+    [Lecture Notes](http://www.cs.cmu.edu/~wcohen/10-605/notes/autodiff.pdf)
+    [Stack Overflow Zero Grad](https://stackoverflow.com/questions/48001598/why-is-zero-grad-needed-for-optimization)
   
