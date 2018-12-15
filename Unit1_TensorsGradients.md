@@ -3,6 +3,8 @@
   **Useful functions:**
   
     a = torch.tensor([])
+    a.data -> gives access to data (can be changed, ex a.data = new_data)
+    a.data.item() -> gives specific value of data, not as tensor
     a.dtype
     a.type()
     a.shape
