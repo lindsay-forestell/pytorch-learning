@@ -40,8 +40,8 @@
     
   **Retain graphs:**
   
-    x.grad.zero_()
-    y.backward(retain_graph=True)
+    x.grad.zero_() - sets x.grad to 0, otherwise it adds up on every backwards call
+    y.backward(retain_graph=True) - retains the information about relation between y and x, else can't do another backward call
       
   **Derivative over function:**
   
