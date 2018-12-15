@@ -1,15 +1,13 @@
 # Linear Regression
 
-**Forward Function**
+  **Forward Function**
 
-Important function used by neural net modules
+  Important function used by neural net modules
 
-  w = torch.tensor(2.0,requires_grad=True)
-
-  b = torch.tensor('')
-
-  def forward(x):
-    return w*x+b
+    w = torch.tensor(2.0,requires_grad=True)
+    b = torch.tensor('')
+    def forward(x):
+      return w*x+b
     
  **Linear Class**
  
