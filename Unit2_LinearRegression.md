@@ -13,7 +13,7 @@
  
     from torch.nn import Linear
     model = Linear(in_features=1,out_features=1,bias=True) (randomly sets initial w,b for y = b + wx)
-    y = model(x) (prediction)
+    yhat = model(x) (prediction)
     print(list(model.parameters())) (lists w,b)
   
   **Custom Modules**
@@ -28,7 +28,8 @@
         return self.Linear(x)
         
     lr = LR(1,1)
-    y = lr(x) will predict y as a function of x BECAUSE the forward function is defined in the class
+    yhat = lr(x) will predict y as a function of x BECAUSE the forward function is defined in the class
+    lr(x), lr.parameters(), etc. from Linear Class all carry over
  
   
   
