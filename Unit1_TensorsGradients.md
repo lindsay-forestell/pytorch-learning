@@ -62,7 +62,7 @@
   
   Lab 1.3.2 contains useful show_image function (for MNIST data)
   
-  **Extra resources:**
+  **Extra Resources:**
   
    [Classes](https://docs.python.org/3/tutorial/classes.html)
   
