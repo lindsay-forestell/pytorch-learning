@@ -40,6 +40,10 @@
     y.backward()
     x1.grad = dy/dx1(at x1=val)
     
+   **Need more info here...?**
+   
+   I think that using y.backward() casues y to lose info about the relation between y and x from its buffer
+    
   **Retain graphs:**
   
     x.grad.zero_() - sets x.grad to 0, otherwise it adds up on every backwards call
