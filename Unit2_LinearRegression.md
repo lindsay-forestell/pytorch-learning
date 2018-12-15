@@ -25,7 +25,8 @@
         super(LR,self).__init__() (sets any other necessary parameters from nn.module)
         self.linear = nn.Linear(in,out)
         
-       def forward(self,x) (needs to be called 'forward' so that future calls of LR class objects will accurately predict)
+       def forward(self,x) 
+       (needs to be called 'forward' so that future calls of LR class objects will accurately predict)
         return self.Linear(x)
         
     lr = LR(1,1)
