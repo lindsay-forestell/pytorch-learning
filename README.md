@@ -4,8 +4,10 @@ Unit 1: Tensors and Gradients
   
   Useful functions:
     a = torch.tensor([])
+    
     a.dtype
     a.type()
+    
     a.shape
     a.size()
     a.ndimension()
