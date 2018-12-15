@@ -100,8 +100,12 @@ Unit 1: Tensors and Gradients
    [Classes](https://docs.python.org/3/tutorial/classes.html)
   
    Pytorch Autograd: 
-    [Towards Datascience](https://towardsdatascience.com/getting-started-with-pytorch-part-1-understanding-how-automatic-differentiation-works-5008282073ec)
-    [Mastering Autograd](https://pytorch.org/docs/stable/notes/autograd.html)
-    [Lecture Notes](http://www.cs.cmu.edu/~wcohen/10-605/notes/autodiff.pdf)
-    [Stack Overflow Zero Grad](https://stackoverflow.com/questions/48001598/why-is-zero-grad-needed-for-optimization)
+    
+   [Towards Datascience](https://towardsdatascience.com/getting-started-with-pytorch-part-1-understanding-how-automatic-differentiation-works-5008282073ec)
+   
+   [Mastering Autograd](https://pytorch.org/docs/stable/notes/autograd.html)
+   
+   [Lecture Notes](http://www.cs.cmu.edu/~wcohen/10-605/notes/autodiff.pdf)
+   
+   [Stack Overflow Zero Grad](https://stackoverflow.com/questions/48001598/why-is-zero-grad-needed-for-optimization)
   
