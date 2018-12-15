@@ -17,7 +17,8 @@
     print(list(model.parameters())) (lists w,b)
   
   **Custom Modules**
-  
+   
+    import torch.nn as nn
     class LR(nn.module):
       def __init__(self,in,out):
         super(LR,self).__init__() (sets any other necessary parameters from nn.module)
