@@ -3,6 +3,8 @@
   **Useful functions:**
   
     a = torch.tensor([])
+    a.data -> gives access to data (can be changed, ex a.data = new_data)
+    a.data.item() -> gives specific value of data, not as tensor
     a.dtype
     a.type()
     a.shape
@@ -28,6 +30,7 @@
     np.pi
     torch.sin(a)
     torch.linspace(min,max,nsteps)
+    torch.arange(min,max,stepsize)
     plt.plot(x.numpy(),y.numpy())
     
   **Derivatives:**
@@ -37,10 +40,14 @@
     y.backward()
     x1.grad = dy/dx1(at x1=val)
     
+   **Need more info here...?**
+   
+   I think that using y.backward() casues y to lose info about the relation between y and x from its buffer
+    
   **Retain graphs:**
   
-    x.grad.zero_()
-    y.backward(retain_graph=True)
+    x.grad.zero_() - sets x.grad to 0, otherwise it adds up on every backwards call
+    y.backward(retain_graph=True) - retains the information about relation between y and x, else can't do another backward call
       
   **Derivative over function:**
   
