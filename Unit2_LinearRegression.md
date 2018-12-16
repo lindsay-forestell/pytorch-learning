@@ -189,7 +189,7 @@
  
  [Explain SGD Optimizer](https://discuss.pytorch.org/t/how-sgd-works-in-pytorch/8060/9)
   
- Early Stopping (As it often has a different definition: stop training when some parameter stops improving:
+ Early Stopping (As it often has a different definition: stop training when some parameter stops improving):
  
  [When? Paper](http://page.mi.fu-berlin.de/prechelt/Biblio/stop_tricks1997.pdf)
  
