@@ -3,6 +3,7 @@
  **Important Classes**
  
   class Data(Dataset) ---------------------> must contain getitem and len functions
+  
   class model_type(nn.Module) -------------> must contain forward function
 
   **Forward Function**
@@ -28,7 +29,7 @@
   **Custom Modules**
    
     import torch.nn as nn
-    class LR(nn.module):
+    class LR(nn.Module):
       def __init__(self,in,out):
         super(LR,self).__init__() --> sets any other necessary parameters from nn.module
         self.linear = nn.Linear(in,out)
