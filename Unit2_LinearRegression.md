@@ -5,6 +5,13 @@
   class Data(Dataset) ---------------------> must contain getitem and len functions
   
   class model_type(nn.Module) -------------> must contain forward function
+  
+  **Things to Import**
+  
+    import torch
+    from torch.nn import Linear
+    import torch.nn as nn, optim
+    from torch.utils.data import Dataset, Dataloader
 
   **Forward Function**
 
@@ -73,7 +80,7 @@
       
    **Using Data Loader** useful way to batch your data, can use for stochastic or mini batch
    
-    from torch.utils.data import Dataset
+    from torch.utils.data import Dataset, Dataloader
     class Data(Dataset):
      def __init__(self):
       self.x, self.y, self.len = self.x.shape[0] ----------> initialize your data
