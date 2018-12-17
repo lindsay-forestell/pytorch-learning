@@ -8,7 +8,7 @@ P(y = 1) = sigmoid(z) = 1/(1+exp(-z))
 
 z = xw + b
 
-<img src = "https://ibm.box.com/shared/static/1rpau4ggzepzxzu01p2j4506d5kvobbj.png" width = 800, align = "center">
+<img src = "https://ibm.box.com/shared/static/1rpau4ggzepzxzu01p2j4506d5kvobbj.png" width = 600, align = "center">
 
     import torch
     import torch.nn as nn
@@ -74,6 +74,11 @@ As such, don't need to include the probability sigmoid function to the linear mo
 Correct class corresponds to the zi with the largest value (ie which weight vector points in closest direction to input)
 
 (Which by construction corresponds to the largest hidden probability in the CEL function)
+
+
+<img src = "/images/softmax1.png" width = 300, align = "center">
+<img src = "/images/softmax2.png" width = 300, align = "center">
+<img src = "/images/softmax3.png" width = 300, align = "center">
 
     class SoftMax(nn.Module): -----------------------> This is technically just the linear model again
       def __init__(self,in,out):
