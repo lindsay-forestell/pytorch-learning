@@ -93,7 +93,7 @@ Correct class corresponds to the zi with the largest value (ie which weight vect
     criterion = nn.CrossEntropyLoss()
     z = model(x)
     _, yhat = z.max(1) ------------------------------> Index of maximum value wrt axis 1 = column, gives the predicted class
-    loss = criterion(z,y.type(torch.LongTensor)) ----------> requires that y be of type torch.long
+    loss = criterion(z,y.type(torch.LongTensor).view(-1)) ----------> requires that y be of type torch.long and of size N, not Nx1
                                                  ----------> z will have multiple columns, loss function auto takes care of it
     
 Validating:
