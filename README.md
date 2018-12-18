@@ -7,3 +7,5 @@ Unit 2: Linear Regression and its PyTorch Implementation
 Unit 3: Logistic Regression and SoftMax Regression
 
 Unit 4: (Deep) Neural Networks
+
+Unit 5: Deep Networks: Optimization Methods (Regularization, Initialization, Momentum, Batch Normalization)
