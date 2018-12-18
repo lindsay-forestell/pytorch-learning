@@ -52,7 +52,7 @@
   **Derivative over function:**
   
     import torch.nn.functional as F
-    x = torch.linspace(size wanted)
+    x = torch.linspace(size wanted,requires_grad=True)
     Y = F.relu(x)
     y = torch.sum(F.relu(x))
     y.backward()
