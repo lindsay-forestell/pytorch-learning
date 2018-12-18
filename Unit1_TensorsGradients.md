@@ -56,6 +56,7 @@
     Y = F.relu(x)
     y = torch.sum(F.relu(x))
     y.backward()
+    plt.plot(x.detach().numpy(), x.grad.detach().numpy(), label = 'derivative')
       
    **Transform Compose:**
    
