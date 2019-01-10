@@ -125,7 +125,7 @@
   
   Make hyperparameter list: eg learning_rates = [0.001,0.01,0.1,1]
   
-  Loop over hyperparameters, choose the one that minimizes *loss(VALIDATION DATA)
+  Loop over hyperparameters, choose the one that minimizes *loss(VALIDATION DATA)*
   
     for i,lr in enumerate(learning_rates):
      model = ... optimizer = ...
